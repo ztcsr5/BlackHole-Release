@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "min_version": "1.0.0",
+  "publish_time": "2026-10-13",
+  "title": "BlackHole 体验版全新升级",
+  "changelog": "1. 智能过滤全新升级：全面剔除纯数字/IP 地址，100% 精准嗅探与呈现真实网页域名\n2. 深度适配双核心 (Mihomo/MarsLink) 流量包嗅探，支持一键分流决策\n3. 新增内置无服务器 GitHub OTA 自动检查与一键无感更新\n4. 优化 TUN 虚拟网卡与系统代理智能互锁联动",
+  "download_url_win": "https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.0/BlackHole.exe",
+  "download_url_mac": "https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.0/BlackHole-macOS.zip"
+}
