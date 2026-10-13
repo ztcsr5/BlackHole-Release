@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "min_version": "1.0.0",
+  "publish_time": "2026-10-13",
+  "title": "BlackHole Desktop v1.0.0",
+  "changelog": "1. 优化连接追踪与域名识别解析逻辑\n2. 增强多场景下规则过滤与决策响应\n3. 优化网络状态同步与自动检查机制\n4. 性能提升与底层资源调度常规优化",
+  "download_url_win": "https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.0/BlackHole.exe"
+}
