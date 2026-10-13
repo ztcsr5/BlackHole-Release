@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "min_version": "1.0.0",
   "publish_time": "2026-10-13",
-  "title": "BlackHole Desktop v1.0.0",
-  "changelog": "1. 优化连接追踪与域名识别解析逻辑\n2. 增强多场景下规则过滤与决策响应\n3. 优化网络状态同步与自动检查机制\n4. 性能提升与底层资源调度常规优化",
-  "download_url_win": "https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.0/BlackHole.exe"
+  "title": "BlackHole Desktop v1.0.1",
+  "changelog": "1. 彻底隐藏底层切换时的终端控制台窗口\n2. 优化退出响应速度，托盘图标瞬间退出\n3. 托盘右键菜单状态实时双向同步，修复断开仍显示打勾的问题\n4. 优化后台自更新与热替换稳定性",
+  "download_url_win": "https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.1/BlackHole.exe"
 }

@@ -5,7 +5,7 @@ BlackHole 是一款轻量、现代化的本地网络连接管理与系统效率�
 ## 📦 下载与安装
 
 - **Windows 10 / 11 (64-bit)**:
-  👉 [**下载 BlackHole.exe**](https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.0/BlackHole.exe)
+  👉 [**下载 BlackHole.exe (v1.0.1)**](https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.1/BlackHole.exe)
 
 > 免安装独立执行文件，双击直接运行即可。
 
