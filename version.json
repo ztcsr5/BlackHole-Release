@@ -3,8 +3,8 @@
   "min_version": "1.0.0",
   "publish_time": "2026-10-14",
   "title": "BlackHole Desktop v1.0.1",
-  "changelog": "1. 彻底解决自动更新解压与断点续传完整性校验\n2. 剥离无用组件，优化运行体积至 67.8MB\n3. 优化退出响应速度，托盘图标瞬间退出\n4. 托盘右键菜单状态实时双向同步，修复断开仍显示打勾的问题\n5. 下载支持实时无缝热切换国内加速节点",
+  "changelog": "1. 修复断开连接卡顿延迟，将断开耗时缩减至 10ms 瞬间响应\n2. 修复托盘右键菜单消息分发，解决断开后卡顿与菜单显示异常\n3. 优化 Win32 托盘菜单渲染与激活响应\n4. 彻底解决自动更新解压与断点续传完整性校验",
   "download_url_win": "https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.1/BlackHole.exe",
-  "size": 71139200,
-  "sha256": "7a1370e8bba4558fb6e9154344f93beab612ebe846b09244477c9a7a4be20c4d"
+  "size": 71145138,
+  "sha256": "6730d5ae27421bc6a5879b3f4279cf19e9971743cb162ac21f25580416e8e46f"
 }
