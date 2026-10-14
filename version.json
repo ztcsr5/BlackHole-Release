@@ -1,8 +1,10 @@
 {
   "version": "1.0.1",
   "min_version": "1.0.0",
-  "publish_time": "2026-10-13",
+  "publish_time": "2026-10-14",
   "title": "BlackHole Desktop v1.0.1",
-  "changelog": "1. 彻底隐藏底层切换时的终端控制台窗口\n2. 优化退出响应速度，托盘图标瞬间退出\n3. 托盘右键菜单状态实时双向同步，修复断开仍显示打勾的问题\n4. 优化后台自更新与热替换稳定性",
-  "download_url_win": "https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.1/BlackHole.exe"
+  "changelog": "1. 彻底解决自动更新解压与断点续传完整性校验\n2. 剥离无用组件，优化运行体积至 67.8MB\n3. 优化退出响应速度，托盘图标瞬间退出\n4. 托盘右键菜单状态实时双向同步，修复断开仍显示打勾的问题\n5. 下载支持实时无缝热切换国内加速节点",
+  "download_url_win": "https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.1/BlackHole.exe",
+  "size": 71139200,
+  "sha256": "7a1370e8bba4558fb6e9154344f93beab612ebe846b09244477c9a7a4be20c4d"
 }
