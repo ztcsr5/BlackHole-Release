@@ -1,10 +1,10 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "min_version": "1.0.0",
-  "publish_time": "2026-10-14",
-  "title": "BlackHole Desktop v1.0.3",
-  "changelog": "1. 彻底解决开启 TUN 打游戏对局加载黑屏、无法连接与掉线问题\n2. 优化 WebRTC 与 QUIC 规则：国内游戏 STUN 对局打洞与 UDP 握手全面直连放行\n3. 升级 Windows TUN 协议栈至高性能 mixed/system 引擎，杜绝游戏时整机卡顿与 100% CPU 占用\n4. 完善 DNS fake-ip-filter 白名单：腾讯/LOL/Steam/网易/暴雪等游戏服务直还真实 IP\n5. 内置常见游戏进程（LOL/WeGame/瓦罗兰特/CS2等）绝对强直连名单\n6. 优化火星链内核日志输出，关闭冗余 verbose 日志流",
-  "download_url_win": "https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.3/BlackHole.exe",
-  "size": 71152859,
-  "sha256": "743f21c2012e37e9b58ead821bbe2056259046438e40f2dd52790984b04fb85f"
+  "publish_time": "2026-10-15",
+  "title": "BlackHole Desktop v1.0.4 紧急热修版",
+  "changelog": "1. 紧急修复 Windows 客户端更新自替换跳板批处理脚本语法缺陷，杜绝点击更新后程序闪退或原地不动\n2. 根治 .NET Framework InsufficientExecutionStackException 异常弹窗，优化 WinForms/WebView2 线程消息模型\n3. 彻底修复 404 not found 节点无法下放异常，重构火星专网/ViewTurbo 底层核心 HTTP 控制通道与自愈重试\n4. 增加端口占用智能清理与僵尸进程看门狗回收，全面保障各节点秒连秒通\n\n【更新注意】：由于 v1.0.2/v1.0.3 存在跳板批处理语法缺陷，若在旧版点击安装后闪退，请直接下载此最新 BlackHole.exe 覆盖运行一次，自 v1.0.4 起后续所有版本将永久支持全自动无缝替换重启！",
+  "download_url_win": "https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.4/BlackHole.exe",
+  "size": 71158329,
+  "sha256": "32cf23539c5bf79538634c5126b52a6163e48263a81ca61da761a802865c06f5"
 }
