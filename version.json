@@ -1,10 +1,10 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "min_version": "1.0.0",
   "publish_time": "2026-10-15",
-  "title": "BlackHole Desktop v1.0.4 紧急热修版",
-  "changelog": "1. 紧急修复 Windows 客户端更新自替换跳板批处理脚本语法缺陷，杜绝点击更新后程序闪退或原地不动\n2. 根治 .NET Framework InsufficientExecutionStackException 异常弹窗，优化 WinForms/WebView2 线程消息模型\n3. 彻底修复 404 not found 节点无法下放异常，重构火星专网/ViewTurbo 底层核心 HTTP 控制通道与自愈重试\n4. 增加端口占用智能清理与僵尸进程看门狗回收，全面保障各节点秒连秒通\n\n【更新注意】：由于 v1.0.2/v1.0.3 存在跳板批处理语法缺陷，若在旧版点击安装后闪退，请直接下载此最新 BlackHole.exe 覆盖运行一次，自 v1.0.4 起后续所有版本将永久支持全自动无缝替换重启！",
-  "download_url_win": "https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.4/BlackHole.exe",
-  "size": 71158329,
-  "sha256": "32cf23539c5bf79538634c5126b52a6163e48263a81ca61da761a802865c06f5"
+  "title": "BlackHole Desktop v1.0.5 高可用双引擎版",
+  "changelog": "1. 新增【全节点双引擎智能无感降级 (Dual-Engine Fallback)】：针对部分 Windows 机器因 Hyper-V/WSL2/系统服务占用 15731 端口或杀毒软件阻止火星核心运行的情况，系统将自动无缝切换至通用专线高可用引擎 (Mihomo) 极速拉起 ViewTurbo 与火星节点，彻底消除“火星链核心引擎启动失败”弹窗。\n2. 支持全矩阵 90+ 节点毫秒级免断网热切换：通用专线引擎运行时，在速游、ViewTurbo、火星链节点间切换无需重建虚拟网卡，1毫秒内极速生效。\n3. 优化官方节点同步与内存扫描模块：加入 2 秒严格超时机制与内存块防护，杜绝与官方客户端并存时可能引起的初始化延迟。\n4. 全面兼容 Windows 7/10/11 各种权限与网络环境。",
+  "download_url_win": "https://github.com/ztcsr5/BlackHole-Release/releases/download/v1.0.5/BlackHole.exe",
+  "size": 71157777,
+  "sha256": "e28c549a27bdaf908375b1d378eb435fab677f91e93c5b52525220ce5159d97a"
 }
